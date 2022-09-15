@@ -28,7 +28,7 @@ public class gemastik3 {
         do {
             for (int i = 0; i < ai.size(); i++) {
                 if (ai.get(i) <= m) {
-                    m = m + bi.get(i);
+                    m += bi.get(i);
                     ai.remove(i);
                     bi.remove(i);
                 }
